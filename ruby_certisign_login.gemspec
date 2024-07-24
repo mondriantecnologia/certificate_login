@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "ruby_certisign_login/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby_certisign_login"
+  spec.name          = "certificate_login"
   spec.version       = RubyCertisignLogin::VERSION
   spec.platform      = Gem::Platform::RUBY
   spec.authors       = ["Danilo Josino"]
